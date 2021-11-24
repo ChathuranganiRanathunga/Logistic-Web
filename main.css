@@ -43,8 +43,27 @@ header ul li {
     transition: background-color 0.5 ease;
 }
 
-header div ul img {
-    width: 15%;
+header ul img {
+    width: 5%;
     float: left;
-    padding-left: 50px;
+    padding-left: 3em;
+    padding-top: 0.5em;
+}
+
+header ul #getQuote {
+    background-color: rgb(247, 189, 17);
+    color: white;
+    border-style: none;
+    width: 90%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+header ul #sign-in {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-style: none;
+    width: 50%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
