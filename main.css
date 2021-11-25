@@ -7,10 +7,13 @@
 }
 
 header {
-    height: 40px;
+    height: 60px;
     background-color: white;
     padding: 8 0 0 0;
     width: 100%;
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -29,7 +32,6 @@ header ul li {
     width: 10%;
     padding-top: 8px;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600px;
     font-size: 1em;
     color: rgb(14, 24, 112);
@@ -66,4 +68,36 @@ header ul #sign-in {
     width: 50%;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+}
+
+
+/*main Dis Section*/
+
+.container {
+    width: 100%;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .left {
+    width: 30%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .right {
+    width: 70%;
+    height: 600px;
+    background-image: url(./img/img_01.png);
+    background-repeat: no-repeat;
+    position: center;
+    background-size: cover;
 }
