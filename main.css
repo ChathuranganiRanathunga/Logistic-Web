@@ -449,3 +449,181 @@
             margin-right: 1em;
             width: 60%;
         }
+        /*Section-07*/
+        
+        .main-t07 {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 1.8em;
+            font-weight: 600;
+            letter-spacing: 4%;
+            text-align: center;
+            padding-bottom: 0.4em;
+        }
+        
+        .sub-t07 {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 1em;
+            font-weight: 500;
+            letter-spacing: 4%;
+            text-align: center;
+            justify-content: center;
+            padding-bottom: 2em;
+        }
+        
+        .sub-t07 img {
+            width: 1%;
+        }
+        
+        .section-07 {
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 20px 20px 20px;
+        }
+        
+        .section-07 .containerSec-07-one {
+            width: 50%;
+            margin-bottom: 1em;
+            display: flex;
+        }
+        
+        .section-07 .containerSec-07-one .left {
+            background-image: url(./img/lorry01_sec07.svg);
+            width: 50%;
+            height: 300px;
+            display: flex;
+            z-index: 1;
+            background-repeat: no-repeat;
+            position: center;
+            background-size: cover;
+        }
+        
+        .section-07 .containerSec-07-one .right {
+            background-color: rgb(247, 189, 17);
+            width: 30%;
+            height: 300px;
+            padding-left: 0.8em;
+        }
+        
+        .section-07 .containerSec-07-one .right .title07-m {
+            color: white;
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 500;
+            font-size: 0.8em;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+        }
+        
+        .section-07 .containerSec-07-one .right .sub07-m {
+            color: white;
+            font-size: 0.6em;
+            font-weight: 500;
+            margin-bottom: 4em;
+            justify-content: center;
+        }
+        
+        .section-07 .containerSec-07-one .right .sub07-m img {
+            width: 5%;
+        }
+        
+        .section-07 .containerSec-07-one .right p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.8em;
+            font-weight: 400;
+            color: white;
+            width: 60%;
+        }
+        /*----------------------------------------------------------------------------------------*/
+        
+        .section-07 .containerSec-07-two {
+            width: 50%;
+            margin-bottom: 1em;
+            display: flex;
+        }
+        
+        .section-07 .containerSec-07-two .left {
+            background-image: url(./img/harbr2_sec07.svg);
+            width: 50%;
+            height: 300px;
+            display: flex;
+            z-index: 1;
+            background-repeat: no-repeat;
+            position: center;
+            background-size: cover;
+        }
+        /*--------------------public for section 07-----------------------------------------------*/
+        
+        .section-07 .right:not(.containerSec-07-one .right) {
+            background-color: rgb(243, 243, 243);
+            width: 30%;
+            height: 300px;
+            padding-left: 0.8em;
+        }
+        
+        .section-07 .right .title07-m:not(.containerSec-07-one .right .title07-m) {
+            color: rgb(2, 75, 90);
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 500;
+            font-size: 0.8em;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+        }
+        
+        .section-07 .right .sub07-m:not(.containerSec-07-one .right .sub07-m) {
+            color: rgb(2, 75, 90);
+            font-size: 0.6em;
+            font-weight: 500;
+            margin-bottom: 4em;
+            justify-content: center;
+        }
+        
+        .section-07 .right .sub07-m img {
+            width: 5%;
+        }
+        
+        .section-07 .right p:not(.containerSec-07-one .right p) {
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.8em;
+            font-weight: 400;
+            color: rgb(2, 75, 90);
+            width: 60%;
+        }
+        /*----------------------------------------------------------------------------------------*/
+        
+        .section-07 .containerSec-07-three {
+            width: 50%;
+            margin-bottom: 1em;
+            display: flex;
+        }
+        
+        .section-07 .containerSec-07-three .left {
+            background-image: url(./img/lorry2_sec07.svg);
+            width: 50%;
+            height: 300px;
+            display: flex;
+            z-index: 1;
+            background-repeat: no-repeat;
+            position: center;
+            background-size: cover;
+        }
+        /*----------------------------------------------------------------------------------------*/
+        
+        .section-07 .containerSec-07-four {
+            width: 50%;
+            margin-bottom: 1em;
+            display: flex;
+        }
+        
+        .section-07 .containerSec-07-four .left {
+            background-image: url(./img/ship02_sec07.svg);
+            width: 50%;
+            height: 300px;
+            display: flex;
+            z-index: 1;
+            background-repeat: no-repeat;
+            position: center;
+            background-size: cover;
+        }
