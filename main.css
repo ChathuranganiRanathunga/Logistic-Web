@@ -347,7 +347,7 @@
         .section-04 {
             display: flex;
             margin-top: 5em;
-            margin-bottom: 5em;
+            margin-bottom: 8em;
         }
         
         .section-04 .containerSec-04 {
@@ -392,7 +392,15 @@
         /*Section 05*/
         
         .section-05 {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            margin: 1em;
+        }
+        
+        .section-05 .containerSec-05 {
             width: 95%;
+            display: flex;
             align-items: center;
             justify-content: center;
         }
@@ -409,8 +417,35 @@
             font-size: 0.9em;
             font-weight: 400;
             color: rgb(121, 117, 117);
+            margin-bottom: 2em;
         }
         
         .section-05 .containerSec-05 .left img {
-            width: 40%;
+            width: 80%;
+        }
+        
+        .section-05 .containerSec-05 .right .det {
+            font-size: 0.8em;
+            width: 90%;
+        }
+        
+        .section-05 .containerSec-05 .right .det img {
+            width: 5%;
+            align-items: right;
+        }
+        /*Section -06 (logo Section)*/
+        
+        .section-06 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-top: 5em;
+            margin-bottom: 5em;
+        }
+        
+        .section-06 img {
+            margin-left: 1em;
+            margin-right: 1em;
+            width: 60%;
         }
