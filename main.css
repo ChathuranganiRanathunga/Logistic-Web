@@ -342,3 +342,71 @@
             background-color: rgb(255, 255, 255);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         }
+        /*Section 04*/
+        
+        .section-04 {
+            display: flex;
+            margin-top: 5em;
+            margin-bottom: 5em;
+        }
+        
+        .section-04 .containerSec-04 {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+        }
+        
+        .section-04 .containerSec-04 .left {
+            font-size: 8em;
+            letter-spacing: 2%;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 700;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .section-04 .containerSec-04 .right {
+            display: flex;
+            width: 98%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: -100px;
+        }
+        
+        .section-04 .containerSec-04 .right .amount {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: rgb(2, 75, 90);
+        }
+        
+        .section-04 .containerSec-04 .right .dis01 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1em;
+            width: 25%;
+            font-weight: 500;
+            color: rgb(2, 75, 90);
+        }
+        /*Section 05*/
+        
+        .section-05 {
+            width: 95%;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .section-05 .containerSec-05 .left .main-t {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 1.2em;
+            letter-spacing: 2%;
+            font-weight: 600;
+        }
+        
+        .section-05 .containerSec-05 .left .sub-t {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 0.9em;
+            font-weight: 400;
+            color: rgb(121, 117, 117);
+        }
