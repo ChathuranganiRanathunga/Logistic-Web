@@ -2,8 +2,11 @@
         * {
             font-family: 'Roboto', sans-serif;
             /* font-family: 'Roboto Condensed', sans-serif; */
-            margin: 0;
             padding: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
         }
         
         header {
@@ -626,4 +629,28 @@
             background-repeat: no-repeat;
             position: center;
             background-size: cover;
+        }
+        /*==========================================================================================================*/
+        
+        .footer {
+            background-color: rgb(93, 108, 131);
+            color: white;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .footer .main {
+            display: flex;
+        }
+        
+        .footer .main .footer-header {
+            width: 100%;
+        }
+        
+        .footer .footer-middle {
+            display: flex;
+        }
+        
+        .footer-bottom {
+            display: flex;
         }
