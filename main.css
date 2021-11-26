@@ -397,16 +397,20 @@
             justify-content: center;
         }
         
-        .section-05 .containerSec-05 .left .main-t {
+        .section-05 .containerSec-05 .main-t {
             font-family: 'Roboto Condensed', sans-serif;
             font-size: 1.2em;
             letter-spacing: 2%;
             font-weight: 600;
         }
         
-        .section-05 .containerSec-05 .left .sub-t {
+        .section-05 .containerSec-05 .sub-t {
             font-family: 'Roboto Condensed', sans-serif;
             font-size: 0.9em;
             font-weight: 400;
             color: rgb(121, 117, 117);
+        }
+        
+        .section-05 .containerSec-05 .left img {
+            width: 40%;
         }
