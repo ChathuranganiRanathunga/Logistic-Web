@@ -168,33 +168,36 @@
         /*More location Details*/
         
         .container-secondSec {
-            width: 100%;
+            width: 80%;
             margin-top: 5em;
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-left: 12em;
+            margin-right: 2em;
         }
         
         .container-secondSec .left {
-            width: 55%;
-            height: 700px;
+            width: 80%;
+            height: 600px;
             display: flex;
-            margin-left: -100px;
-            background-image: url(./img/secondImgSection.png);
+            background-image: url(./img/section-02-mainImg.svg);
             background-repeat: no-repeat;
             position: center;
             background-size: cover;
+            justify-content: center;
         }
         
         .container-secondSec .right {
-            width: 25%;
+            width: 40%;
             min-height: 400px;
             align-items: center;
             justify-content: center;
             padding: 20px;
             z-index: 1;
-            background-color: rgb(255, 255, 255);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin-left: -40px;
+            background-color: transparent;
+            /* background-color: rgba(255, 255, 255, 0.0); */
         }
         
         .container-secondSec .right .main-t {
@@ -202,6 +205,7 @@
             font-size: 2em;
             padding-bottom: 1em;
             font-weight: 500;
+            margin-top: 2em;
         }
         
         .container-secondSec .right .sub-t {
@@ -209,6 +213,14 @@
             font-size: 2em;
             padding-bottom: 1em;
             font-weight: 500;
+        }
+        
+        .container-secondSec .right .sub-t span {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2em;
+            padding-bottom: 1em;
+            font-weight: 500;
+            color: rgb(247, 189, 17);
         }
         
         .container-secondSec .right p {
@@ -424,6 +436,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            margin: 1em 2em 1em 2em;
         }
         
         .section-05 .containerSec-05 .main-t {
@@ -467,8 +480,8 @@
         }
         
         .section-06 img {
-            margin-left: 1em;
-            margin-right: 1em;
+            margin-left: 1.2em;
+            margin-right: 1.2em;
             width: 60%;
         }
         /*Section-07*/
@@ -497,18 +510,21 @@
         }
         
         .section-07 {
-            width: 80%;
+            width: 96%;
             display: flex;
             flex-wrap: wrap;
+            display: row;
             align-items: center;
             justify-content: center;
-            padding: 20px 100px 20px 100px;
+            padding: 20px 20px 20px 20px;
+            margin: 0em 0 6em 0;
         }
         
         .section-07 .containerSec-07-one {
             width: 50%;
             margin-bottom: 1em;
             display: flex;
+            justify-content: center;
         }
         
         .section-07 .containerSec-07-one .left {
@@ -563,6 +579,7 @@
             width: 50%;
             margin-bottom: 1em;
             display: flex;
+            justify-content: center;
         }
         
         .section-07 .containerSec-07-two .left {
@@ -618,6 +635,7 @@
             width: 50%;
             margin-bottom: 1em;
             display: flex;
+            justify-content: center;
         }
         
         .section-07 .containerSec-07-three .left {
@@ -636,6 +654,7 @@
             width: 50%;
             margin-bottom: 1em;
             display: flex;
+            justify-content: center;
         }
         
         .section-07 .containerSec-07-four .left {
