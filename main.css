@@ -354,6 +354,16 @@
             padding: 20px;
             background-color: rgb(255, 255, 255);
         }
+        
+        .section03-details {
+            font-size: 0.8em;
+            color: rgb(121, 117, 117);
+            margin-left: 3.8em;
+        }
+        
+        .section03-details img {
+            width: 1%;
+        }
         /*Section 04*/
         
         .section-04 {
