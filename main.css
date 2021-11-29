@@ -48,6 +48,13 @@
             transition: background-color 0.5 ease;
         }
         
+        header ul li a span {
+            font-size: 1.2em;
+            font-weight: 900;
+            width: 5%;
+            color: rgb(247, 189, 17);
+        }
+        
         header ul img {
             width: 5%;
             float: left;
@@ -89,10 +96,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 20px;
+            padding: 10px;
             z-index: 1;
             background-color: rgb(255, 255, 255);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .container .left .des-container .main-t span {
+            color: rgb(247, 189, 17);
+            font-size: 1.3em;
+            font-weight: bolder;
         }
         
         .container .left .des-container .main-t {
@@ -375,6 +387,12 @@
         
         .section03-details img {
             width: 1%;
+        }
+        
+        .section03-details span {
+            font-size: 0.9em;
+            color: black;
+            font-weight: 500;
         }
         /*Section 04*/
         
@@ -688,6 +706,7 @@
             font-size: 1.5em;
             font-weight: 600;
             font-family: 'Roboto Condensed', sans-serif;
+            width: 60%;
             padding-bottom: 0.5em;
         }
         
@@ -695,10 +714,15 @@
             font-size: 0.8em;
             font-weight: 400;
             color: rgb(243, 243, 243);
+            width: 60%;
         }
         
         .footer .main .footer-header {
             width: 100%;
+        }
+        
+        .footer .main form {
+            width: 50%;
         }
         
         .footer .main input[type=text] {
@@ -732,6 +756,11 @@
         
         .footer .footer-middle .left-box {
             margin-right: 1em;
+        }
+        
+        .footer .footer-middle .line {
+            width: 500%;
+            height: 20px;
         }
         
         .footer .footer-middle .tittle {
@@ -771,6 +800,10 @@
         
         .footer .footer-middle .right-box img {
             width: 80%;
+        }
+        
+        .footer .footer-middle .middle-box-one p img {
+            width: 5%;
         }
         /*---------------------------------------------------*/
         
